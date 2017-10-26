@@ -1,0 +1,70 @@
+.header {
+
+	width: 100%;
+	padding: 30px;
+	background-color: lightblue;
+	text-align: center;
+	margin-left: -8px;
+	margin-top: -10px;
+	margin-right: -8px;
+	position: static;
+}
+
+.div-form{
+
+	margin-top: 60px;
+}
+
+.input:focus{
+
+	border: 3px black solid;
+
+}
+
+.input-size{
+
+	width: 200px;
+	height: 25px;
+
+}
+
+.footer{
+	 position: absolute; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 85px; 
+    background-color: lightgray;
+	text-align: right;
+	margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+href= deletar.php?id=$id
+
+iddeletado=$_GET['id'];
+
+sql = where idsala=$iddeletado
